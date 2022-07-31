@@ -1,3 +1,4 @@
+```
 > go mod init github.com/towfeeq/bookstore-with-db
 > go get "github.com/jinzhu/gorm"       --> ORM for sql db
 > go get "github.com/jinzhu/gorm/dialects/mysql"
@@ -34,4 +35,5 @@ bookstore-with-db
 Users  --|---> /book/{id}      -->  getBookById    -->   getBookById    ---|------> books
          |---> /book/{id}      -->  updateBook     -->   updateBook     ---|
          |---> /book/{id}      -->  deleteBook     -->   deleteBook     ---|
+```
  
